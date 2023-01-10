@@ -1,0 +1,20 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 255, 255, 0.575);
+}
+
+li {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgba(70, 43, 226, 0.397);
+	text-decoration-color: rgb(0, 5, 4);
+}
