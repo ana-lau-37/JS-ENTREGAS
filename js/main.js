@@ -40,7 +40,7 @@ function hora() {
 	let hora = prompt(
 		"Elija su turno de reservacion:\n A] 21,00hs \n B]21,30hs \n c]22,00hs \n D] 22,30hs"
 	).toUpperCase();
-	console.log("Usted eligió " + hora);
+	console.log("Usted eligió  la opcion " + hora);
 }
 
 function sector() {
@@ -48,6 +48,11 @@ function sector() {
 		"Ingrese el sector que prefiera: \n A]Salon \n  B]Terraza"
 	).toUpperCase();
 	console.log("Eligió el sector " + sector);
+}
+
+function telefono() {
+	let nroTelefono = prompt("Introduzca su numero de telefono.");
+	console.log("El numero ingresado es " + nroTelefono);
 }
 
 function comentario() {
@@ -61,4 +66,5 @@ cantidadComensales();
 fechaReserva();
 hora();
 sector();
+telefono();
 comentario();
